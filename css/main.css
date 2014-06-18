@@ -8,7 +8,7 @@ body{
 }
 
 .background{
-  background-image: url('images/header.jpg');
+  background-image: url('../images/header.jpg');
   background-repeat: repeat-x;
   background-color: #272727;
   width: 1220px;
