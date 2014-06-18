@@ -8,7 +8,7 @@ body{
 }
 
 .background{
-  background-image: url('/images/header.jpg');
+  background-image: url('images/header.jpg');
   background-repeat: repeat-x;
   background-color: #272727;
   width: 1220px;
@@ -20,7 +20,7 @@ body{
 .container{
   width: 100%;
   min-height: 100%;
-  background-image: url('/images/mask_tl.png'), url('/images/mask_tr.png'), url('/images/mask_bl.png'), url('/images/mask_br.png'), url('/images/mask_l.png'), url('/images/mask_r.png');
+  background-image: url('images/mask_tl.png'), url('images/mask_tr.png'), url('images/mask_bl.png'), url('images/mask_br.png'), url('images/mask_l.png'), url('images/mask_r.png');
   background-position: top left, top right, bottom left, bottom right, top left, top right;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-y;
   padding-bottom: 100px;
@@ -31,7 +31,7 @@ body{
   width: 483px;
   margin-left: 375px;
   margin-top: 40px;
-  background-image: url('/images/gmenu.png');
+  background-image: url('images/gmenu.png');
   background-repeat: no-repeat;
 }
 .navigation a{
@@ -130,7 +130,7 @@ body{
   margin-right: 5px;
   margin-bottom: 26px;
   
-  background-image: url(/images/foto_mask_01.png);
+  background-image: url(images/foto_mask_01.png);
   background-repeat: no-repeat;
   background-position: -25px top;
   
@@ -184,7 +184,7 @@ body{
   width: 61px;
   height: 14px;
   
-  background-image: url(/images/foto_mask_02.png);
+  background-image: url(images/foto_mask_02.png);
   background-repeat: no-repeat;
   
   font-style: normal;
