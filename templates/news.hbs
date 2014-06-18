@@ -1,0 +1,15 @@
+<div class="row news">
+  <div class="col-xs-3 col-xs-offset-2 photo">
+    {{#if attachment.photo}}
+      <img src="{{attachment.photo.src_big}}">
+    {{/if}}
+    {{#if attachment.album}}
+      <img src="{{attachment.album.thumb.src_big}}">
+    {{/if}}
+
+  </div>
+  <div class="col-xs-5 text">
+    <span class="date">{{date}}</span><br />
+    {{{text}}}
+  </div>
+</div>

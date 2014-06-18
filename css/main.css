@@ -1,0 +1,231 @@
+html, body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #000;
+}
+
+.background{
+  background-image: url('/images/header.jpg');
+  background-repeat: repeat-x;
+  background-color: #272727;
+  width: 1220px;
+  margin: auto;
+  margin-bottom: 5px;
+  background-position-x: -520px;
+}
+
+.container{
+  width: 100%;
+  min-height: 100%;
+  background-image: url('/images/mask_tl.png'), url('/images/mask_tr.png'), url('/images/mask_bl.png'), url('/images/mask_br.png'), url('/images/mask_l.png'), url('/images/mask_r.png');
+  background-position: top left, top right, bottom left, bottom right, top left, top right;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-y;
+  padding-bottom: 100px;
+}
+
+.navigation{
+  height: 390px;
+  width: 483px;
+  margin-left: 375px;
+  margin-top: 40px;
+  background-image: url('/images/gmenu.png');
+  background-repeat: no-repeat;
+}
+.navigation a{
+  position: absolute;
+  text-indent: -9999px;
+}
+  .navigation a[href="#price"]{
+    width: 60px;
+    height: 30px;
+    display: block;
+    margin-left: 45px;
+    margin-top: 5px;
+  }
+  .navigation a[href="#photos"]{
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin-left: 5px;
+    margin-top: 42px;
+  }
+  .navigation a[href="#poligons"]{
+    width: 110px;
+    height: 30px;
+    display: block;
+    margin-left: 110px;
+    margin-top: 60px;
+  }
+  .navigation a[href="#news"]{
+    width: 87px;
+    height: 37px;
+    display: block;
+    margin-left: 105px;
+    margin-top: 3px;
+  }
+  .navigation a[href="#contacts"]{
+    width: 87px;
+    height: 30px;
+    display: block;
+    margin-left: 105px;
+    margin-top: 205px;
+  }
+  .navigation a[href="#events"]{
+    width: 105px;
+    height: 35px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 185px;
+  }
+
+.content{
+  color: #fff;
+  padding: 0 50px;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+  border-top: 1px solid #333;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th{
+  background-color: #1b1919;
+}
+
+.table-prices th {
+  color: #478235;
+}
+
+
+.news{
+  margin-bottom: 40px;
+}
+.news .photo{
+  text-align: right;
+  padding-top: 30px;
+}
+.news .photo img{
+  max-width: 100%;
+}
+.news .text{
+  color: #c1c1c1;
+}
+.news .date{
+  color: #d95d1a;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+.fotos {
+  float: left;
+  
+  width: 210px;
+  height: 162px;
+  
+  margin-right: 5px;
+  margin-bottom: 26px;
+  
+  background-image: url(/images/foto_mask_01.png);
+  background-repeat: no-repeat;
+  background-position: -25px top;
+  
+  text-align: center;
+}
+* html .fotos {
+  background-image: none;
+}
+
+.fotos div {
+  margin-bottom: 2px;
+}
+
+.fotos p {
+  margin-right: 9px;
+  text-align: right;
+}
+
+.fotos div a {
+  display: block;
+  text-decoration: none;
+  
+  color: #b6b6b6;
+}
+.fotos div strong {
+  display: block;
+  
+  overflow: hidden;
+  
+  height: 17px;
+  
+  margin-top: 7px;
+  margin-bottom: 6px;
+  
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+}
+.fotos div span {
+  display: block;
+  
+  margin-left: 0px;
+}
+.fotos div span em {
+  display: block;
+  position: absolute;
+  
+  margin-top: 90px;
+  margin-left: 15px;
+  
+  width: 61px;
+  height: 14px;
+  
+  background-image: url(/images/foto_mask_02.png);
+  background-repeat: no-repeat;
+  
+  font-style: normal;
+  font-size: 9px;
+  line-height: 12px;
+}
+* html .fotos div span em {
+  background-image: none;
+  background-color: #000000;
+}
+.fotos div span em small {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+
+.fotos div big {
+  display: block;
+  
+  padding-right: 29px;
+  
+  text-align: right;
+  font-size: 10px;
+}
+
+
+.fotos div a:hover strong,
+.fotos div a:hover big,
+.fotos div a:hover span em small
+{
+  color: #d95d1a;
+}
+
+
+.foto{
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  width: 87px;
+  height: 87px;
+  overflow: hidden;
+}
+.foto img{
+}
