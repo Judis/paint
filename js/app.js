@@ -22,7 +22,7 @@ var scrollHeader = function(position) {
 
 
 var loadTemplate = function(template) {
-  return $.get('../templates/'+template+'.hbs');
+  return $.get('templates/'+template+'.hbs');
 }
 
 
