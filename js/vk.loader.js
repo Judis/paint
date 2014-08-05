@@ -17,6 +17,7 @@ var VKLoader = function() {
         offset: offset
       },
       function(r) {
+        console.log(r.response);
         if(r.response) {
           callback(r.response);
         }
